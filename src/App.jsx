@@ -49,7 +49,6 @@ function reducer(todos, action) {
       prevTodos = prevTodos.filter((elem) => elem.complete !== true);
       return [...prevTodos];
     default:
-      console.log("err");
       break;
   }
 }
