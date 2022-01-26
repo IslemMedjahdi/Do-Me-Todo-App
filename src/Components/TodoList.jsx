@@ -15,7 +15,7 @@ const Todolist = () => {
     return todos;
   };
   const handleOnDragEnd = (result) => {
-    if (result.destination && result.source){
+    if (result.destination){
       const items = Array.from(todos);
       const resultSourceIndex = items.findIndex((item) => item.id === filterList(items)[result.source.index].id);
       const resultDestinationIndex = items.findIndex((item) => item.id === filterList(items)[result.destination.index].id);;
