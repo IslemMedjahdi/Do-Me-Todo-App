@@ -4,13 +4,13 @@ import { ACTIONS, ActionsContext } from "../App";
 const Footer = () => {
   const { todos, dispatch, filter, setFilter } = useContext(ActionsContext);
   return (
-    <footer className="z-10">
+    <footer className="z-10 2xl:text-lg">
       <div
         style={{
           boxShadow:
             "rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px",
         }}
-        className="flex border-t-gray-200 dark:border-t-slate-700 transition py-2 px-5 justify-between bg-white dark:bg-gray-800 rounded-b items-center dark:text-gray-400 text-gray-500"
+        className="flex border-t-gray-200 dark:border-t-slate-700 transition 2xl:py-4 2xl:px-6 py-2 px-5 justify-between bg-white dark:bg-gray-800 rounded-b items-center dark:text-gray-400 text-gray-500"
       >
         <div>
           <p>

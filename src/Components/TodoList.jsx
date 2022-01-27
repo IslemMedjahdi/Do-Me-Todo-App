@@ -32,7 +32,7 @@ const Todolist = () => {
             {...provided.droppableProps}
             style={{boxShadow: 'rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px'}}
             ref={provided.innerRef}
-            className="h-80 mt-7 scrollbar-hide overflow-auto scroll-smooth flex flex-col w-full dark:bg-gray-800 rounded-t dark: bg-white"
+            className="h-80 2xl:h-96 mt-7 scrollbar-hide overflow-auto scroll-smooth flex flex-col w-full dark:bg-gray-800 rounded-t dark: bg-white"
           >
             {todos &&
               filterList(todos).map((elem, index) => {

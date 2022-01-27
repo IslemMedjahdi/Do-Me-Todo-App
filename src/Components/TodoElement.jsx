@@ -2,7 +2,7 @@ import React from "react";
 
 const Todoelement = ({ toggleComplete, complete, text, deleteHandler }) => {
   return (
-    <div className="flex bg-white dark:bg-gray-800 items-center w-full space-x-4 py-4 px-4  dark:text-gray-300 text-gray-800 border-b-[0.5px] dark:hover:bg-gray-700 hover:bg-gray-100 transition border-b-gray-200 dark:border-b-slate-700">
+    <div className="flex 2xl:text-lg bg-white dark:bg-gray-800 items-center w-full space-x-4 2xl:p-5 p-4 dark:text-gray-300 text-gray-800 border-b-[0.5px] dark:hover:bg-gray-700 hover:bg-gray-100 transition border-b-gray-200 dark:border-b-slate-700">
       <input
         type="checkbox"
         className="form-checkbox dark:bg-gray-600 rounded cursor-pointer bg-gray-200"

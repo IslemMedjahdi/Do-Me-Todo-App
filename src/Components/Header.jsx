@@ -6,13 +6,13 @@ const Header = () => {
   return (
     <header className="w-full mt-5 flex items-center text-white justify-between">
       <div>
-        <h1 className="text-3xl font-bold tracking-[0.5rem]">DO ME</h1>
+        <h1 className="text-3xl 2xl:text-4xl font-bold tracking-[0.5rem]">DO ME</h1>
       </div>
       <div className="cursor-pointer hover:text-yellow-300 hover:rotate-[360deg] transition duration-700" onClick={() => setTheme((prevTheme) => !prevTheme)}>
         {!theme ? (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
+            className="h-5 w-5 2xl:w-8 2xl:h-8"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
@@ -21,7 +21,7 @@ const Header = () => {
         ) : (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
+            className="h-5 w-5 2xl:w-8 2xl:h-8"
             viewBox="0 0 20 20"
             fill="currentColor"
           >

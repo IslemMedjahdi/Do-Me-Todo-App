@@ -93,15 +93,15 @@ function App() {
       >
         <div className={`${theme ? "dark" : ""}`}>
           <div
-            className="min-h-screen p-5 flex justify-center transition duration-500 bg-top bg-repeat-x dark:bg-gray-900"
+            className="min-h-screen p-5 2xl:bg-contain flex justify-center items-center transition duration-500 bg-top bg-repeat-x dark:bg-gray-900"
             style={{ backgroundImage: `url(${background})` }}
           >
-            <div className="flex flex-col lg:w-2/5 sm:w-4/5 w-full">
+            <div className="flex flex-col 2xl:w-5/12 lg:w-2/5 sm:w-4/5 w-full">
               <Header />
               <Input />
               <Todolist />
               <Footer />
-              <p className="mx-auto mt-3 dark:text-gray-400 text-gray-600">
+              <p className="mx-auto 2xl:text-lg mt-3 2xl:mt-7 dark:text-gray-400 text-gray-600">
                 Drag and drop to reorder list
               </p>
             </div>
