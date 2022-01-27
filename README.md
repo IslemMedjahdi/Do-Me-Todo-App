@@ -26,3 +26,4 @@
 	- `DoMe is a ToDo App with a good UI design using ReactJs ( hooks, contextAPI ) and TailwindCss.`
   	- `You can add, delete and reorder elements of the todo list using drag and drop.`
   	- `You can toggle between dark & light mode.`  
+	- `todos are stored in local storage`
